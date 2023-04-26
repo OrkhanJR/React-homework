@@ -1,0 +1,320 @@
+.main-blog {
+  width: 1448px;
+  height: 588px;
+  margin-top: 251px;
+  margin-left: 232px;
+
+  #blg {
+    font-weight: 700;
+    font-size: 38px;
+    line-height: 62px;
+  }
+
+  .blog {
+    display: flex;
+    .left-img {
+      .text-of-img {
+        display: flex;
+        .h4 {
+          width: 487px;
+          height: 22px;
+          font-weight: 700;
+          font-size: 16px;
+          line-height: 22px;
+          color: #111112;
+        }
+
+        .clock {
+          margin-left: 143px;
+          margin-top: 39px;
+        }
+      }
+
+      #esther {
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 19px;
+        color: #adaeaf;
+      }
+      #mae {
+        margin-top: 29px;
+        width: 582px;
+        height: 57px;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 19px;
+        color: #adaeaf;
+      }
+    }
+
+    .right-side {
+      margin-top: 52px;
+      margin-left: 20px;
+
+      .right-top {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        width: 223px;
+        height: 155px;
+
+        .h4 {
+          margin-left: 243px;
+          position: absolute;
+        }
+
+        #efficitur {
+          margin-top: 64px;
+          margin-left: -480px;
+          width: 465px;
+          height: 100px;
+          font-style: normal;
+          font-weight: 400;
+          font-size: 14px;
+          line-height: 19px;
+          color: #adaeaf;
+        }
+        .bottom {
+          margin-left: 20px;
+          margin-top: 120px;
+          display: flex;
+          align-items: center;
+          #bell {
+            color: #adaeaf;
+            width: 75px;
+            height: 19px;
+            font-weight: 400;
+            font-size: 14px;
+            line-height: 19px;
+          }
+          .clock {
+            margin-left: 323px;
+          }
+        }
+      }
+
+      .right-middle {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        width: 223px;
+        height: 155px;
+        margin-top: 20px;
+        .h4 {
+          margin-left: 243px;
+          margin-top: 11px;
+          position: absolute;
+        }
+        .bottom {
+          margin-left: 20px;
+          margin-top: 120px;
+          display: flex;
+          align-items: center;
+          #howard {
+            color: #adaeaf;
+            width: 98px;
+            height: 19px;
+            font-weight: 400;
+            font-size: 14px;
+            line-height: 19px;
+          }
+          .clock {
+            margin-left: 323px;
+          }
+        }
+      }
+
+      .right-bottom {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        width: 223px;
+        height: 155px;
+        margin-top: 20px;
+
+        .h4 {
+          margin-left: 243px;
+          position: absolute;
+        }
+        #efficitur {
+          margin-top: 64px;
+          margin-left: -509px;
+          width: 465px;
+          height: 100px;
+          font-style: normal;
+          font-weight: 400;
+          font-size: 14px;
+          line-height: 19px;
+          color: #adaeaf;
+        }
+        .bottom {
+          margin-left: 20px;
+          margin-top: 120px;
+          display: flex;
+          align-items: center;
+          #henry {
+            color: #adaeaf;
+            width: 104px;
+            height: 19px;
+            font-weight: 400;
+            font-size: 14px;
+            line-height: 19px;
+          }
+          .clock {
+            margin-left: 323px;
+          }
+        }
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 426px) {
+  .main-blog {
+    width: auto;
+    height: auto;
+    margin-top: 70px;
+    margin-left: 10px;
+    .blog {
+      display: flex;
+      flex-direction: column;
+
+      .left-img {
+        .text-of-img {
+          display: block;
+          .clock {
+            margin-left: 0px;
+            margin-top: 0px;
+          }
+
+          .h4 {
+            width: auto;
+            height: auto;
+
+            #mae {
+              width: auto;
+              height: auto;
+            }
+          }
+        }
+      }
+      .right-side {
+        margin-top: 0px;
+
+        .right-top {
+          margin-top: 50px;
+          display: flex;
+          width: auto;
+          height: auto;
+          flex-wrap: wrap;
+          justify-content: center;
+
+          #efficitur {
+            margin-left: 0px;
+            margin-top: 0px;
+            width: auto;
+            height: 100px;
+          }
+
+          .bottom {
+            margin-left: 0px;
+            margin-top: 70px;
+            display: flex;
+            margin-left: -10px;
+            align-items: center;
+            gap: 10px;
+            .clock {
+              margin-left: 0px;
+            }
+            #bell {
+              width: 75px;
+              height: 19px;
+            }
+          }
+
+          .h4 {
+            margin-top: 30px;
+            margin-left: 0px;
+          }
+        }
+        .right-middle {
+          margin-top: 50px;
+          display: flex;
+          width: auto;
+          height: auto;
+          flex-wrap: wrap;
+          justify-content: center;
+
+          .h4 {
+            position: static;
+            img {
+              width: 100%;
+            }
+          }
+
+          .bottom {
+            margin-left: 0px;
+            margin-top: 70px;
+            display: flex;
+
+            align-items: center;
+            gap: 10px;
+            .clock {
+              margin-left: 0px;
+            }
+            #howard {
+              width: auto;
+              height: 19px;
+            }
+          }
+
+          .h4 {
+            margin-top: 30px;
+            margin-left: 0px;
+
+            img {
+              width: 100%;
+            }
+          }
+        }
+        .right-bottom {
+          margin-top: 50px;
+          display: flex;
+          width: auto;
+          height: auto;
+          flex-wrap: wrap;
+          justify-content: center;
+
+          #efficitur {
+            margin-left: 0px;
+            margin-top: 0px;
+            width: auto;
+            height: 100px;
+          }
+
+          .bottom {
+            margin-left: 0px;
+            margin-top: 70px;
+            display: flex;
+            margin-left: -10px;
+            align-items: center;
+            gap: 10px;
+            .clock {
+              margin-left: 0px;
+            }
+            #henry {
+              width: auto;
+              height: 19px;
+            }
+          }
+
+          .h4 {
+            margin-top: 30px;
+            margin-left: 0px;
+          }
+        }
+      }
+    }
+  }
+}

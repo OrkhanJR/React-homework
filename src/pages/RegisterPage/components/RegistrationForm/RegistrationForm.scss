@@ -1,0 +1,156 @@
+$register-color: #adaeaf;
+
+.divider {
+  display: flex;
+  margin-top: 48px;
+  justify-content: center;
+}
+.form-title {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 27px;
+}
+
+form {
+  .register {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 24px;
+
+    .psw-requirements {
+      margin-top: -31px;
+      margin-left: -55px;
+      font-style: normal;
+      font-weight: 400;
+      font-size: 14px;
+      line-height: 21px;
+      color: #adaeaf;
+    }
+
+    .username {
+      display: flex;
+      flex-direction: column;
+
+      .psw {
+        display: flex;
+        justify-content: space-between;
+
+        .see-btn {
+          color: transparent;
+          background-color: transparent;
+          border-color: transparent;
+          cursor: pointer;
+        }
+      }
+
+      label {
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 24px;
+        color: $register-color;
+      }
+      input {
+        width: 500px;
+        margin-top: 7px;
+        height: 56px;
+        border: 1px solid #adaeaf;
+        border-radius: 22px;
+      }
+      ::placeholder {
+        padding-left: 24px;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 24px;
+        color: $register-color;
+      }
+    }
+    .personal-info {
+      margin-left: -200px;
+      .gender {
+        color: #adaeaf;
+        margin-bottom: 10px;
+      }
+      .radio {
+        display: flex;
+        color: #666666;
+        gap: 10px;
+      }
+    }
+    .date {
+      margin-left: -300px;
+      .paragraph {
+        color: #adaeaf;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 24px;
+      }
+      .date-choose {
+        input {
+          border-color: #adaeaf;
+          border-radius: 30px;
+          height: 30px;
+        }
+      }
+    }
+    .checkbox {
+      display: flex;
+      input {
+        margin-top: -25px;
+      }
+      label {
+        margin-left: 11px;
+        p {
+          font-style: normal;
+          font-weight: 400;
+          font-size: 16px;
+          line-height: 24px;
+          width: 459px;
+          height: 48px;
+        }
+      }
+    }
+    .policy {
+      p {
+        color: #adaeaf;
+
+        a {
+          color: #111112;
+        }
+      }
+    }
+    .sign-up {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      .login-btn {
+        button {
+          width: 580px;
+          height: 64px;
+          border-radius: 32px;
+          background-color: #111112;
+          color: whitesmoke;
+          cursor: pointer;
+
+          p {
+            font-size: 22px;
+          }
+          @media (min-width: 320px) and (max-width: 426px) {
+            width: 300px;
+          }
+        }
+      }
+      .login {
+        color: #adaeaf;
+
+        a {
+          color: #111112;
+        }
+      }
+    }
+  }
+}

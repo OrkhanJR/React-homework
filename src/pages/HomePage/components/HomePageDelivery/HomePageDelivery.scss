@@ -1,0 +1,109 @@
+.container {
+  .delivery {
+    width: 1440px;
+    height: 416px;
+    margin-left: 239px;
+    margin-right: 241px;
+    margin-top: 229px;
+
+    .left-side {
+      .where {
+        display: flex;
+        #where {
+          font-weight: 700;
+          font-size: 38px;
+          line-height: 62px;
+        }
+      }
+      #left-p {
+        width: 434px;
+        height: 66px;
+      }
+      .city-search {
+        display: flex;
+        gap: 20px;
+        .city {
+          border: 1px solid #adaeaf;
+          border-radius: 22px;
+          width: 348px;
+          height: 58px;
+          margin-top: 94px;
+        }
+        input::placeholder {
+          color: #adaeaf;
+          padding-left: 26px;
+        }
+
+        .nip {
+          .nip {
+            border: 1px solid #adaeaf;
+            border-radius: 22px;
+            width: 223px;
+            height: 58px;
+            margin-top: 94px;
+          }
+          input::placeholder {
+            color: #adaeaf;
+            padding-left: 26px;
+          }
+        }
+      }
+
+      .buttons {
+        display: flex;
+        align-items: center;
+        margin-top: 38px;
+        gap: 26px;
+        .check {
+          color: transparent;
+          background-color: transparent;
+          border: transparent;
+          cursor: pointer;
+        }
+
+        .locate {
+          color: transparent;
+          background-color: transparent;
+          border: transparent;
+          cursor: pointer;
+        }
+      }
+    }
+    .right-side {
+      float: right;
+    }
+  }
+}
+@media screen and (max-width: 426px) {
+  .delivery {
+    margin-left: 1px;
+    margin-top: 100px;
+
+    .left-side {
+      padding: 10px;
+      .right-side {
+        display: none;
+      }
+      .city-search {
+        flex-direction: column;
+
+        .nip {
+          form {
+            input.nip {
+              margin-top: 1px;
+            }
+          }
+        }
+
+        form {
+          input.city {
+            width: auto;
+          }
+        }
+      }
+      #left-p {
+        width: 300px;
+      }
+    }
+  }
+}

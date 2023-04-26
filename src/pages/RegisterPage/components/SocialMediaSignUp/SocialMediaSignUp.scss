@@ -1,0 +1,39 @@
+.smreg {
+    margin-top: 50px;
+  .title {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 48px;
+    display: flex;
+    justify-content: center;
+    color: #111112;
+  }
+  .buttons {
+    display: flex;
+    gap: 35.5px;
+    flex-direction: column;
+    align-items: center;
+    .facebook {
+      .fbutton {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 16px;
+        width: 578px;
+        height: 64px;
+        background: #ffffff;
+        border: 1px solid #333333;
+        border-radius: 32px;
+        cursor: pointer;
+
+        .sign {
+          font-style: normal;
+          font-weight: 400;
+          font-size: 24px;
+          line-height: 33px;
+        }
+      }
+    }
+  }
+}

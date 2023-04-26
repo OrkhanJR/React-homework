@@ -1,0 +1,351 @@
+.container {
+  .h2 {
+    font-weight: 700;
+    margin-left: 240px;
+    margin-top: 229px;
+  }
+
+  .diets {
+    .arrows {
+      display: flex;
+      gap: 28px;
+      margin-left: 1582px;
+
+      .right {
+        color: transparent;
+        background-color: transparent;
+        border: transparent;
+        cursor: pointer;
+      }
+
+      .left {
+        color: transparent;
+        background-color: transparent;
+        border: transparent;
+        cursor: pointer;
+      }
+    }
+  }
+
+  .menu {
+    display: flex;
+    gap: 19px;
+    margin-top: 38px;
+    .slim {
+      margin-left: 240px;
+      width: 346px;
+      height: 434px;
+
+      .calorie {
+        display: flex;
+
+        .calorie-button {
+          color: transparent;
+          background-color: transparent;
+          border: transparent;
+          cursor: pointer;
+        }
+      }
+      .about-food {
+        color: #adaeaf;
+        margin-top: 10px;
+      }
+    }
+
+    .price {
+      display: flex;
+      gap: 5px;
+      width: 128px;
+      height: 38px;
+      .from {
+        color: #adaeaf;
+      }
+
+      .para {
+        font-size: 29px;
+        font-weight: 700;
+        color: #111112;
+        display: flex;
+        align-items: flex-end;
+        margin-bottom: -5px;
+      }
+      #pln {
+        color: #111112;
+        font-weight: 600;
+      }
+      #day {
+        color: #adaeaf;
+        font-weight: 400;
+      }
+
+      #choose-btn {
+        margin-left: 100px;
+        margin-top: 25px;
+        display: flex;
+        align-items: center;
+
+        .choose {
+          color: transparent;
+          background-color: transparent;
+          border: transparent;
+          cursor: pointer;
+        }
+      }
+    }
+
+    .fit {
+      width: 350px;
+      height: 451px;
+      .calorie-button {
+        color: transparent;
+        background-color: transparent;
+        border: transparent;
+        cursor: pointer;
+      }
+    }
+    .about-food {
+      color: #adaeaf;
+      margin-top: 10px;
+    }
+
+    .price2 {
+      display: flex;
+      gap: 5px;
+      width: 128px;
+      height: 38px;
+      margin-top: 39px;
+
+      .from {
+        color: #adaeaf;
+      }
+
+      .para {
+        font-size: 29px;
+        font-weight: 700;
+        color: #111112;
+        display: flex;
+        align-items: flex-end;
+        margin-bottom: -5px;
+      }
+
+      .pln {
+        color: #111112;
+        font-weight: 600;
+      }
+      .day {
+        color: #adaeaf;
+        font-weight: 400;
+      }
+      .choose-btn {
+        margin-left: 100px;
+        margin-top: 25px;
+        display: flex;
+        align-items: center;
+
+        .choose {
+          color: transparent;
+          background-color: transparent;
+          border: transparent;
+          cursor: pointer;
+        }
+      }
+    }
+
+    .vegan {
+      width: 345px;
+      height: 516px;
+
+      .calorie {
+        .calorie-button {
+          color: transparent;
+          background-color: transparent;
+          border: transparent;
+          cursor: pointer;
+        }
+      }
+      .about-food {
+        color: #adaeaf;
+        margin-top: 10px;
+      }
+      .price3 {
+        display: flex;
+        gap: 5px;
+        width: 128px;
+        height: 38px;
+        margin-top: 25px;
+      }
+      .from {
+        color: #adaeaf;
+      }
+
+      .para {
+        font-size: 29px;
+        font-weight: 700;
+        color: #111112;
+        display: flex;
+        align-items: flex-end;
+        margin-bottom: -5px;
+      }
+
+      .pln {
+        color: #111112;
+        font-weight: 600;
+      }
+      .day {
+        color: #adaeaf;
+        font-weight: 400;
+      }
+      .choose-btn {
+        margin-left: 100px;
+        margin-top: 25px;
+        display: flex;
+        align-items: center;
+
+        .choose {
+          color: transparent;
+          background-color: transparent;
+          border: transparent;
+          cursor: pointer;
+        }
+      }
+    }
+
+    .keto {
+      width: 346px;
+      height: 432px;
+
+      .calorie {
+        .calorie-button {
+          color: transparent;
+          background-color: transparent;
+          border: transparent;
+          cursor: pointer;
+        }
+      }
+      .price4 {
+        display: flex;
+        gap: 5px;
+        width: 128px;
+        height: 38px;
+        margin-top: 8px;
+      }
+      .from {
+        color: #adaeaf;
+      }
+
+      .para {
+        font-size: 29px;
+        font-weight: 700;
+        color: #111112;
+        display: flex;
+        align-items: flex-end;
+        margin-bottom: -5px;
+      }
+
+      .pln {
+        color: #111112;
+        font-weight: 600;
+      }
+      .day {
+        color: #adaeaf;
+        font-weight: 400;
+      }
+      .choose-btn {
+        margin-left: 100px;
+        margin-top: 25px;
+        display: flex;
+        align-items: center;
+
+        .choose {
+          color: transparent;
+          background-color: transparent;
+          border: transparent;
+          cursor: pointer;
+        }
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 426px) {
+  .h2 {
+    margin-left: 10px;
+    margin-top: 30px;
+  }
+  .diets {
+    padding: 10px;
+    .arrows {
+      display: none;
+    }
+  }
+  .menu {
+    display: flex;
+    gap: 50px;
+    flex-direction: column;
+
+    .slim {
+      width: auto;
+      height: auto;
+      margin-left: auto;
+
+      #slim {
+        width: 250px;
+      }
+      .price {
+        width: 128px;
+
+        #choose-btn {
+          margin-left: 30px;
+        }
+      }
+    }
+    .fit {
+      width: auto;
+      height: auto;
+      margin-left: auto;
+
+      #fit {
+        width: 250px;
+      }
+      .price2 {
+        width: 128px;
+
+        .choose-btn {
+          margin-left: 30px;
+        }
+      }
+    }
+    .vegan {
+      width: auto;
+      height: auto;
+      margin-left: auto;
+
+      #vegan {
+        width: 250px;
+      }
+      .price3 {
+        width: 128px;
+
+        .choose-btn {
+          margin-left: 30px;
+        }
+      }
+    }
+    .keto {
+      width: auto;
+      height: auto;
+      margin-left: auto;
+
+      #keto {
+        width: 250px;
+      }
+      .price4 {
+        width: 128px;
+
+        .choose-btn {
+          margin-left: 30px;
+        }
+      }
+    }
+  }
+}

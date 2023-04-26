@@ -1,0 +1,168 @@
+.order {
+    margin-left: 199px;
+    margin-right: 240px;
+    width: 1481px;
+    height: 660.65px;
+
+    #order-fast {
+      display: flex;
+      margin-left: 45px;
+      font-weight: 700;
+      font-size: 38px;
+      line-height: 62px;
+
+      .heart {
+        display: flex;
+        align-items: center;
+
+        #heart {
+          margin-left: 30px;
+          width: 97px;
+          height: 43px;
+          margin-top: 20px;
+        }
+      }
+      .right-text {
+        margin-left: 171px;
+        margin-top: 48px;
+        width: 434px;
+        height: 44px;
+        color: #111112;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 22px;
+      }
+    }
+
+    .bottom {
+      display: flex;
+      .left-img {
+        margin-top: 22.26px;
+        margin-left: 27px;
+      }
+      .right-side {
+        margin-left: 200px;
+
+        .one {
+          display: flex;
+
+          .phone {
+            margin-left: 45.31px;
+          }
+
+          .h4 {
+            margin-left: 17.31px;
+            margin-top: -20px;
+
+            .p {
+              margin-top: -15px;
+              width: 403px;
+              height: 44px;
+              color: #adaeaf;
+              font-style: normal;
+              font-weight: 400;
+              font-size: 16px;
+              line-height: 22px;
+            }
+          }
+        }
+
+        .two {
+          display: flex;
+          margin-top: 160px;
+
+          .hat {
+            margin-left: 45.31px;
+          }
+
+          .h4 {
+            margin-left: 17.31px;
+            margin-top: -18px;
+
+            .p {
+              margin-top: -15px;
+              width: 398px;
+              height: 44px;
+              color: #adaeaf;
+              font-style: normal;
+              font-weight: 400;
+              font-size: 16px;
+              line-height: 22px;
+            }
+          }
+        }
+
+        .three {
+          display: flex;
+          margin-top: 162px;
+
+          .car {
+            margin-left: 45.31px;
+          }
+
+          .h4 {
+            margin-left: 17.31px;
+            margin-top: -18px;
+            width: 393px;
+            height: 22px;
+
+            .p {
+              margin-top: -15px;
+              width: 398px;
+              height: 22px;
+              color: #adaeaf;
+              font-style: normal;
+              font-weight: 400;
+              font-size: 15px;
+              line-height: 22px;
+            }
+          }
+        }
+      }
+    }
+  }
+
+  @media screen and (max-width: 426px) {
+    .order {
+      width: auto;
+      height: auto;
+      margin-left: 10px;
+      margin-right: 10px;
+
+      .bottom {
+        display: none;
+        .left-img {
+          display: none;
+        }
+      }
+
+      #order-fast {
+        margin-left: 1px;
+        font-weight: bold;
+        font-size: medium;
+        line-height: normal;
+        flex-direction: column;
+
+        .right-text {
+          margin-left: 0px;
+          margin-top: 0px;
+          width: auto;
+        }
+
+        h2 {
+          display: flex;
+          flex-wrap: wrap;
+          justify-content: center;
+          .heart {
+            margin-top: -35px;
+            margin-left: -57px;
+
+            #heart {
+              display: none;
+            }
+          }
+        }
+      }
+    }
+  }

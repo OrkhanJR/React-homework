@@ -1,0 +1,29 @@
+.more {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 88px;
+    margin-left: 933px;
+    margin-right: 912px;
+
+    .button {
+      border: transparent;
+      background-color: transparent;
+      cursor: pointer;
+
+      .see {
+        width: 75px;
+        font-style: normal;
+        font-weight: 700;
+        font-size: 16px;
+        line-height: 22px;
+        color: #111112;
+      }
+    }
+    .line {
+      width: 8px;
+      height: 3px;
+      margin-top: -21px;
+      margin-left: 5px;
+    }
+  }

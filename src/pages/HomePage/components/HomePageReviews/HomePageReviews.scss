@@ -1,0 +1,146 @@
+.container {
+  .reviews {
+    margin-top: 233.25px;
+    margin-left: 239px;
+    display: flex;
+
+    .title {
+      display: flex;
+      flex-direction: column;
+      width: 559px;
+      height: auto;
+    }
+    .arrow {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      margin-top: 19px;
+    }
+
+    .arrowimg {
+      width: 80px;
+      height: 43px;
+    }
+
+    .right-up {
+      display: flex;
+      gap: 42px;
+      margin-left: 200px;
+      .cloud {
+        width: 350px;
+        height: 130px;
+        display: grid;
+        background-color: #f5f5f5;
+        color: #111112;
+        border-radius: 26px;
+
+        .name {
+          margin: 16px 16px;
+        }
+
+        .review {
+          color: #adaeaf;
+        }
+      }
+    }
+  }
+
+  .left-down {
+    .because {
+      color: #adaeaf;
+      margin-left: 240px;
+    }
+
+    .quote {
+      display: flex;
+      margin-left: 240px;
+
+      .quote1 {
+        margin-top: 54.94px;
+      }
+      .quote2 {
+        margin-top: 28px;
+        margin-left: 30px;
+        font-family: "Open Sans";
+      }
+    }
+
+    .right-down {
+      margin-left: 190px;
+      display: flex;
+      gap: 42px;
+    }
+
+    .cloud {
+      width: 350px;
+      height: 130px;
+      display: grid;
+      background-color: #f5f5f5;
+      color: #111112;
+      border-radius: 26px;
+
+      .name {
+        margin: 16px 16px;
+      }
+
+      .review {
+        color: #adaeaf;
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 426px) {
+  .reviews {
+    display: inline;
+    margin-top: 20px;
+    margin-left: 10px;
+
+    .title {
+      width: auto;
+    }
+
+    .right-up {
+      margin-left: 20px;
+      display: flex;
+      flex-direction: column;
+      gap: 42px;
+
+      .cloud {
+        width: auto;
+        height: auto;
+      }
+    }
+    .title {
+      width: auto;
+    }
+
+    .arrowimg {
+      display: none;
+    }
+  }
+  .left-down {
+    .because {
+      display: none;
+    }
+    .cloud {
+      width: auto;
+      height: auto;
+    }
+    .right-down {
+      margin-left: 1px;
+      margin-left: -220px;
+      margin-top: 40px;
+      display: flex;
+      flex-direction: column;
+    }
+    .quote {
+      .quote1 {
+        display: none;
+      }
+      .quote2 {
+        display: none;
+      }
+    }
+  }
+}

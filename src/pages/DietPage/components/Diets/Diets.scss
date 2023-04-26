@@ -1,0 +1,492 @@
+.diets {
+    .h2 {
+      margin-top: 137px;
+      margin-left: 238px;
+    }
+    .menu {
+      display: flex;
+      gap: 19px;
+      margin-top: 22px;
+      .slim {
+        margin-left: 240px;
+        width: 346px;
+        height: 434px;
+
+        .calorie {
+          display: flex;
+
+          .calorie-button {
+            color: transparent;
+            background-color: transparent;
+            border: transparent;
+            cursor: pointer;
+          }
+        }
+        .about-food {
+          color: #adaeaf;
+          margin-top: 18px;
+        }
+      }
+
+      .price {
+        display: flex;
+        gap: 5px;
+        width: 128px;
+        height: 38px;
+        .from {
+          color: #adaeaf;
+        }
+
+        .para {
+          font-size: 29px;
+          font-weight: 700;
+          color: #111112;
+          display: flex;
+          align-items: flex-end;
+          margin-bottom: -5px;
+        }
+        #pln {
+          color: #111112;
+          font-weight: 600;
+        }
+        #day {
+          color: #adaeaf;
+          font-weight: 400;
+        }
+
+        #choose-btn {
+          margin-left: 100px;
+          margin-top: 25px;
+          display: flex;
+          align-items: center;
+
+          .choose {
+            color: transparent;
+            background-color: transparent;
+            border: transparent;
+            cursor: pointer;
+          }
+        }
+      }
+
+      .fit {
+        width: 350px;
+        height: 451px;
+        .calorie-button {
+          color: transparent;
+          background-color: transparent;
+          border: transparent;
+          cursor: pointer;
+        }
+      }
+      .about-food {
+        color: #adaeaf;
+        margin-top: 18px;
+      }
+
+      .price2 {
+        display: flex;
+        gap: 5px;
+        width: 128px;
+        height: 38px;
+        margin-top: 25px;
+
+        .from {
+          color: #adaeaf;
+        }
+
+        .para {
+          font-size: 29px;
+          font-weight: 700;
+          color: #111112;
+          display: flex;
+          align-items: flex-end;
+          margin-bottom: -5px;
+        }
+
+        .pln {
+          color: #111112;
+          font-weight: 600;
+        }
+        .day {
+          color: #adaeaf;
+          font-weight: 400;
+        }
+        .choose-btn {
+          margin-left: 100px;
+          margin-top: 25px;
+          display: flex;
+          align-items: center;
+
+          .choose {
+            color: transparent;
+            background-color: transparent;
+            border: transparent;
+            cursor: pointer;
+          }
+        }
+      }
+
+      .vegan {
+        width: 345px;
+        height: 516px;
+
+        .calorie {
+          .calorie-button {
+            color: transparent;
+            background-color: transparent;
+            border: transparent;
+            cursor: pointer;
+          }
+        }
+        .about-food {
+          color: #adaeaf;
+          margin-top: 18px;
+        }
+        .price3 {
+          display: flex;
+          gap: 5px;
+          width: 128px;
+          height: 38px;
+          margin-top: 25px;
+
+          .from {
+            color: #adaeaf;
+          }
+
+          .para {
+            font-size: 29px;
+            font-weight: 700;
+            color: #111112;
+            display: flex;
+            align-items: flex-end;
+            margin-bottom: -5px;
+          }
+
+          .pln {
+            color: #111112;
+            font-weight: 600;
+          }
+          .day {
+            color: #adaeaf;
+            font-weight: 400;
+          }
+          .choose-btn {
+            margin-left: 100px;
+            margin-top: 25px;
+            display: flex;
+            align-items: center;
+
+            .choose {
+              color: transparent;
+              background-color: transparent;
+              border: transparent;
+              cursor: pointer;
+            }
+          }
+        }
+      }
+
+      .keto {
+        width: 346px;
+        height: 432px;
+
+        .calorie {
+          .calorie-button {
+            color: transparent;
+            background-color: transparent;
+            border: transparent;
+            cursor: pointer;
+          }
+        }
+        .price4 {
+          display: flex;
+          gap: 5px;
+          width: 128px;
+          height: 38px;
+          margin-top: 8px;
+
+          .from {
+            color: #adaeaf;
+          }
+
+          .para {
+            font-size: 29px;
+            font-weight: 700;
+            color: #111112;
+            display: flex;
+            align-items: flex-end;
+            margin-bottom: -5px;
+          }
+
+          .pln {
+            color: #111112;
+            font-weight: 600;
+          }
+          .day {
+            color: #adaeaf;
+            font-weight: 400;
+          }
+          .choose-btn {
+            margin-left: 100px;
+            margin-top: 25px;
+            display: flex;
+            align-items: center;
+
+            .choose {
+              color: transparent;
+              background-color: transparent;
+              border: transparent;
+              cursor: pointer;
+            }
+          }
+        }
+      }
+    }
+
+    .bottom-menu {
+      display: flex;
+      gap: 19px;
+      margin-top: 69px;
+      margin-left: 240px;
+      .gym {
+        width: 345px;
+        height: 449px;
+
+        .calorie {
+          .calorie-button {
+            color: transparent;
+            background-color: transparent;
+            border: transparent;
+            cursor: pointer;
+          }
+        }
+        .about-food {
+          color: #adaeaf;
+          margin-top: 18px;
+        }
+        .price5 {
+          display: flex;
+          gap: 5px;
+          width: 128px;
+          height: 38px;
+          margin-top: 8px;
+
+          .from {
+            color: #adaeaf;
+          }
+
+          .para {
+            font-size: 29px;
+            font-weight: 700;
+            color: #111112;
+            display: flex;
+            align-items: flex-end;
+            margin-bottom: -5px;
+          }
+
+          .pln {
+            color: #111112;
+            font-weight: 600;
+          }
+          .day {
+            color: #adaeaf;
+            font-weight: 400;
+          }
+          .choose-btn {
+            margin-left: 100px;
+            margin-top: 25px;
+            display: flex;
+            align-items: center;
+
+            .choose {
+              color: transparent;
+              background-color: transparent;
+              border: transparent;
+              cursor: pointer;
+            }
+          }
+        }
+      }
+
+      .office-box {
+        width: 350px;
+        height: 450px;
+
+        .calorie {
+          .calorie-button {
+            color: transparent;
+            background-color: transparent;
+            border: transparent;
+            cursor: pointer;
+          }
+        }
+        .about-food {
+          color: #adaeaf;
+          margin-top: 18px;
+        }
+        .price6 {
+          display: flex;
+          gap: 5px;
+          width: 278px;
+          height: 38px;
+          margin-top: 34px;
+
+          .from {
+            color: #adaeaf;
+          }
+
+          .para {
+            font-size: 29px;
+            font-weight: 700;
+            color: #111112;
+            display: flex;
+            align-items: flex-end;
+            margin-bottom: -5px;
+          }
+
+          .pln {
+            color: #111112;
+            font-weight: 600;
+          }
+          .day {
+            color: #adaeaf;
+            font-weight: 400;
+          }
+          .choose-btn {
+            margin-left: 100px;
+            margin-top: 25px;
+            display: flex;
+            align-items: center;
+
+            .choose {
+              color: transparent;
+              background-color: transparent;
+              border: transparent;
+              cursor: pointer;
+            }
+          }
+        }
+      }
+
+      .for-moms {
+        width: 345px;
+        height: 449px;
+
+        .calorie {
+          .calorie-button {
+            color: transparent;
+            background-color: transparent;
+            border: transparent;
+            cursor: pointer;
+          }
+        }
+        .about-food {
+          color: #adaeaf;
+          margin-top: 18px;
+        }
+        .price7 {
+          display: flex;
+          gap: 5px;
+          width: 278px;
+          height: 38px;
+          margin-top: 19px;
+
+          .from {
+            color: #adaeaf;
+          }
+
+          .para {
+            font-size: 29px;
+            font-weight: 700;
+            color: #111112;
+            display: flex;
+            align-items: flex-end;
+            margin-bottom: -5px;
+          }
+
+          .pln {
+            color: #111112;
+            font-weight: 600;
+          }
+          .day {
+            color: #adaeaf;
+            font-weight: 400;
+          }
+          .choose-btn {
+            margin-left: 100px;
+            margin-top: 25px;
+            display: flex;
+            align-items: center;
+
+            .choose {
+              color: transparent;
+              background-color: transparent;
+              border: transparent;
+              cursor: pointer;
+            }
+          }
+        }
+      }
+
+      .low-ig {
+        width: 345px;
+        height: 449px;
+
+        .calorie {
+          .calorie-button {
+            color: transparent;
+            background-color: transparent;
+            border: transparent;
+            cursor: pointer;
+          }
+        }
+        .about-food {
+          color: #adaeaf;
+          margin-top: 18px;
+        }
+        .price8 {
+          display: flex;
+          gap: 5px;
+          width: 278px;
+          height: 38px;
+          margin-top: 19px;
+
+          .from {
+            color: #adaeaf;
+          }
+
+          .para {
+            font-size: 29px;
+            font-weight: 700;
+            color: #111112;
+            display: flex;
+            align-items: flex-end;
+            margin-bottom: -5px;
+          }
+
+          .pln {
+            color: #111112;
+            font-weight: 600;
+          }
+          .day {
+            color: #adaeaf;
+            font-weight: 400;
+          }
+          .choose-btn {
+            margin-left: 100px;
+            margin-top: 25px;
+            display: flex;
+            align-items: center;
+
+            .choose {
+              color: transparent;
+              background-color: transparent;
+              border: transparent;
+              cursor: pointer;
+            }
+          }
+        }
+      }
+    }
+  }

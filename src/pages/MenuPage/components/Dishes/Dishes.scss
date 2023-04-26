@@ -1,0 +1,571 @@
+.food-top {
+    margin-top: 28px;
+    margin-left: 240px;
+    display: flex;
+    gap: 20px;
+
+    .dish1 {
+      width: 347px;
+      height: 470px;
+      #name {
+        position: relative;
+        left: 128px;
+        bottom: 20px;
+      }
+
+      .parent {
+        margin-top: -32px;
+        .title-b {
+          display: flex;
+          .title-break {
+            width: 267px;
+            height: 44px;
+            font-style: normal;
+            font-weight: 700;
+            font-size: 16px;
+            line-height: 22px;
+          }
+          .kcal {
+            width: 61px;
+            height: 22px;
+            font-style: normal;
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 22px;
+            color: #adaeaf;
+          }
+        }
+        .about {
+          font-style: normal;
+          font-weight: 400;
+          font-size: 14px;
+          line-height: 19px;
+          color: #adaeaf;
+          width: 278px;
+          height: 19px;
+          margin-top: -26px;
+        }
+        .foot {
+          margin-top: 18px;
+          display: flex;
+          font-style: normal;
+          font-weight: 400;
+          font-size: 16px;
+          line-height: 22px;
+
+          .diet {
+            color: #adaeaf;
+          }
+          .slim {
+            color: #111112;
+            margin-left: 5px;
+          }
+          .icons {
+            display: flex;
+            gap: 10px;
+            margin-left: 188px;
+          }
+        }
+      }
+    }
+
+    .dish2 {
+      width: 347px;
+      height: 470px;
+      #name {
+        position: relative;
+        bottom: 20px;
+        left: 128px;
+      }
+
+      .parent {
+        margin-top: -32px;
+        .title-b {
+          display: flex;
+          .title-break {
+            width: 267px;
+            height: 44px;
+            font-style: normal;
+            font-weight: 700;
+            font-size: 16px;
+            line-height: 22px;
+          }
+          .kcal {
+            width: 61px;
+            height: 22px;
+            font-style: normal;
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 22px;
+            color: #adaeaf;
+          }
+        }
+        .about {
+          font-style: normal;
+          font-weight: 400;
+          font-size: 14px;
+          line-height: 19px;
+          color: #adaeaf;
+          width: 286px;
+          height: 38px;
+          margin-top: -45px;
+        }
+        .foot {
+          margin-top: 18px;
+          display: flex;
+          font-style: normal;
+          font-weight: 400;
+          font-size: 16px;
+          line-height: 22px;
+
+          .diet {
+            color: #adaeaf;
+          }
+          .slim {
+            color: #111112;
+            margin-left: 5px;
+          }
+          .icons {
+            display: flex;
+            gap: 10px;
+            margin-left: 188px;
+          }
+        }
+      }
+    }
+
+    .dish3 {
+      width: 347px;
+      height: 470px;
+      #name {
+        position: relative;
+        bottom: 20px;
+        left: 128px;
+      }
+
+      .parent {
+        margin-top: -32px;
+        .title-b {
+          display: flex;
+          .title-break {
+            width: 267px;
+            height: 44px;
+            font-style: normal;
+            font-weight: 700;
+            font-size: 16px;
+            line-height: 22px;
+          }
+          .kcal {
+            width: 61px;
+            height: 22px;
+            font-style: normal;
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 22px;
+            color: #adaeaf;
+          }
+        }
+        .about {
+          font-style: normal;
+          font-weight: 400;
+          font-size: 14px;
+          line-height: 19px;
+          color: #adaeaf;
+          width: 286px;
+          height: 38px;
+          margin-top: -45px;
+        }
+        .foot {
+          margin-top: 18px;
+          display: flex;
+          font-style: normal;
+          font-weight: 400;
+          font-size: 16px;
+          line-height: 22px;
+
+          .diet {
+            color: #adaeaf;
+          }
+          .slim {
+            color: #111112;
+            margin-left: 5px;
+          }
+          .icons {
+            display: flex;
+            gap: 10px;
+            margin-left: 188px;
+          }
+        }
+      }
+    }
+    .dish4 {
+      width: 347px;
+      height: 470px;
+      #name {
+        position: relative;
+        bottom: 20px;
+        left: 128px;
+      }
+
+      .parent {
+        margin-top: -32px;
+        .title-b {
+          display: flex;
+          .title-break {
+            width: 267px;
+            height: 44px;
+            font-style: normal;
+            font-weight: 700;
+            font-size: 16px;
+            line-height: 22px;
+          }
+          .kcal {
+            width: 61px;
+            height: 22px;
+            font-style: normal;
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 22px;
+            color: #adaeaf;
+          }
+        }
+        .about {
+          font-style: normal;
+          font-weight: 400;
+          font-size: 14px;
+          line-height: 19px;
+          color: #adaeaf;
+          width: 286px;
+          height: 38px;
+          margin-top: -45px;
+        }
+        .foot {
+          margin-top: 18px;
+          display: flex;
+          font-style: normal;
+          font-weight: 400;
+          font-size: 16px;
+          line-height: 22px;
+
+          .diet-type {
+            display: flex;
+            width: 107px;
+            height: 22px;
+            flex-wrap: wrap;
+            flex-direction: column;
+            .diet {
+              color: #adaeaf;
+            }
+            .slim {
+              color: #111112;
+              margin-left: 5px;
+            }
+          }
+          .icons {
+            display: flex;
+            gap: 10px;
+            margin-left: 188px;
+          }
+        }
+      }
+    }
+  }
+
+  .food-bottom {
+    display: flex;
+    margin-top: 68px;
+    margin-left: 240px;
+    
+    gap: 20px;
+
+    .dish5 {
+      width: 347px;
+      height: 491px;
+      #name {
+        position: relative;
+        bottom: 20px;
+        left: 128px;
+      }
+
+      .parent {
+        margin-top: -32px;
+        .title-b {
+          display: flex;
+          .title-break {
+            width: 267px;
+            height: 44px;
+            font-style: normal;
+            font-weight: 700;
+            font-size: 16px;
+            line-height: 22px;
+          }
+          .kcal {
+            width: 61px;
+            height: 22px;
+            font-style: normal;
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 22px;
+            color: #adaeaf;
+          }
+        }
+        .about {
+          font-style: normal;
+          font-weight: 400;
+          font-size: 14px;
+          line-height: 19px;
+          color: #adaeaf;
+          width: 286px;
+          height: 38px;
+          margin-top: -45px;
+        }
+        .foot {
+          margin-top: 38px;
+          display: flex;
+          font-style: normal;
+          font-weight: 400;
+          font-size: 16px;
+          line-height: 22px;
+
+          .diet-type {
+            display: flex;
+            width: 107px;
+            height: 22px;
+
+            .diet {
+              color: #adaeaf;
+            }
+            .slim {
+              color: #111112;
+              margin-left: 5px;
+            }
+          }
+          .icons {
+            display: flex;
+            gap: 10px;
+            margin-left: 188px;
+          }
+        }
+      }
+    }
+
+    .dish6 {
+      width: 347px;
+      height: 491px;
+      #name {
+        position: relative;
+        bottom: 20px;
+        left: 128px;
+      }
+
+      .parent {
+        margin-top: -32px;
+        .title-b {
+          display: flex;
+          .title-break {
+            width: 267px;
+            height: 44px;
+            font-style: normal;
+            font-weight: 700;
+            font-size: 16px;
+            line-height: 22px;
+          }
+          .kcal {
+            width: 61px;
+            height: 22px;
+            font-style: normal;
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 22px;
+            color: #adaeaf;
+          }
+        }
+        .about {
+          font-style: normal;
+          font-weight: 400;
+          font-size: 14px;
+          line-height: 19px;
+          color: #adaeaf;
+          width: 286px;
+          height: 38px;
+          margin-top: -26px;
+        }
+        .foot {
+          margin-top: 18px;
+          display: flex;
+          font-style: normal;
+          font-weight: 400;
+          font-size: 16px;
+          line-height: 22px;
+
+          .diet-type {
+            display: flex;
+            width: 107px;
+            height: 22px;
+
+            .diet {
+              color: #adaeaf;
+            }
+            .slim {
+              color: #111112;
+              margin-left: 5px;
+            }
+          }
+          .icons {
+            display: flex;
+            gap: 10px;
+            margin-left: 188px;
+          }
+        }
+      }
+    }
+    .dish7 {
+      width: 347px;
+      height: 491px;
+      #name {
+        position: relative;
+        bottom: 20px;
+        left: 128px;
+      }
+
+      .parent {
+        margin-top: -32px;
+        .title-b {
+          display: flex;
+          .title-break {
+            width: 267px;
+            height: 44px;
+            font-style: normal;
+            font-weight: 700;
+            font-size: 16px;
+            line-height: 22px;
+          }
+          .kcal {
+            width: 61px;
+            height: 22px;
+            font-style: normal;
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 22px;
+            color: #adaeaf;
+          }
+        }
+        .about {
+          font-style: normal;
+          font-weight: 400;
+          font-size: 14px;
+          line-height: 19px;
+          color: #adaeaf;
+          width: 286px;
+          height: 38px;
+          margin-top: -45px;
+        }
+        .foot {
+          margin-top: 38px;
+          display: flex;
+          font-style: normal;
+          font-weight: 400;
+          font-size: 16px;
+          line-height: 22px;
+
+          .diet-type {
+            display: flex;
+            width: 107px;
+            height: 22px;
+
+            .diet {
+              color: #adaeaf;
+            }
+            .slim {
+              color: #111112;
+              margin-left: 5px;
+            }
+          }
+          .icons {
+            display: flex;
+            gap: 10px;
+            margin-left: 188px;
+          }
+        }
+      }
+    }
+
+    .dish8 {
+      width: 347px;
+      height: 491px;
+      #name {
+        position: relative;
+        bottom: 20px;
+        left: 128px;
+      }
+
+      .parent {
+        margin-top: -32px;
+        .title-b {
+          display: flex;
+          .title-break {
+            width: 267px;
+            height: 44px;
+            font-style: normal;
+            font-weight: 700;
+            font-size: 16px;
+            line-height: 22px;
+          }
+          .kcal {
+            width: 61px;
+            height: 22px;
+            font-style: normal;
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 22px;
+            color: #adaeaf;
+          }
+        }
+        .about {
+          font-style: normal;
+          font-weight: 400;
+          font-size: 14px;
+          line-height: 19px;
+          color: #adaeaf;
+          width: 286px;
+          height: 38px;
+          margin-top: -45px;
+        }
+        .foot {
+          margin-top: 38px;
+          display: flex;
+          font-style: normal;
+          font-weight: 400;
+          font-size: 16px;
+          line-height: 22px;
+
+          .diet-type {
+            display: flex;
+            width: 115px;
+            height: 22px;
+            flex-wrap: wrap;
+            flex-direction: column;
+            .diet {
+              display: flex;
+              color: #adaeaf;
+              .slim {
+                display: flex;
+                color: #111112;
+                margin-left: 5px;
+
+                .box {
+                  color: #111112;
+                  margin-left: 6px;
+                }
+              }
+            }
+          }
+          .icons {
+            display: flex;
+            gap: 10px;
+            margin-left: 140px;
+          }
+        }
+      }
+    }
+  }
